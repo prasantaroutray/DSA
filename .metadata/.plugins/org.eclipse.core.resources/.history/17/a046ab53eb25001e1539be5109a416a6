@@ -1,0 +1,21 @@
+package com.java.dsa.array;
+
+public class RemoveEvenandOddElementFromArray {
+
+	public static void main(String[] args) {
+		
+		removeOddElementFromArray();
+		removeEvenElementFromArray();
+	}
+
+	private static void removeEvenElementFromArray() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void removeOddElementFromArray() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

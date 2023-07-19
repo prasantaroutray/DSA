@@ -1,0 +1,19 @@
+package com.java.dsa.array;
+
+public class ReverseArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+       printArray(new int[] {1,2,3,4});
+	}
+
+	private static void printArray(int[] arr) {
+		System.out.println("array before ");
+		for(int a:arr) {
+			System.out.print(a +" ");
+		}
+		
+	}
+
+}

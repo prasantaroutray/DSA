@@ -1,0 +1,21 @@
+package com.java.dsa.array;
+
+public class RemoveEvenandOddElementFromArray {
+
+	public static void main(String[] args) {
+		
+		removeOddElementFromArray(new int[] {23,56,88,74,32,90,56,67});
+		removeEvenElementFromArray(new int[] {23,56,88,74,32,90,56,67});
+	}
+
+	private static void removeEvenElementFromArray(int[] arr) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void removeOddElementFromArray(int[] arr) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

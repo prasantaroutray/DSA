@@ -1,0 +1,22 @@
+package com.java.dsa;
+
+public class MergeTwoSortedArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         int []array= {2,4,5,7};
+         int [] array2= {1,3,8,9,11,89,90};
+         int length=array.length+array2.length;
+         System.out.println(length);
+         int []arry3=new int[8];
+         for(int i=0;i<array.length-1;i++) {
+        	  for(int j=0;j<array2.length-1;j++) {
+        		  if(array[i]<=array2[j]) {
+        			  arry3[i]=array[j];
+        		  }
+        	  }
+         }
+         System.out.println( arry3[4]);
+	}
+
+}

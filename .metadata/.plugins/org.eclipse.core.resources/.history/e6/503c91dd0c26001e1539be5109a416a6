@@ -1,0 +1,27 @@
+package com.java.dsa.array;
+
+public class MinumValuefOfAnArray {
+
+	public static void main(String[] args) {
+		int [] array= {12,23,4,6,2,24,45,76,3};
+		int min=miniumValueOfAnArray(array);
+		System.out.println(min);
+
+	}
+
+	private static int miniumValueOfAnArray(int[] array) {
+		// TODO Auto-generated method stub
+		int min=array[0];
+		
+		for(int i=1;i<array.length;i++) {
+			if(array[i]<min) {
+				min=array[i];
+				
+			}
+			
+		}
+		return min;
+		
+	}
+
+}

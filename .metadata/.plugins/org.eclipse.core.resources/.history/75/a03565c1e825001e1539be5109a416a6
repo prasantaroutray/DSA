@@ -1,0 +1,15 @@
+package com.java.dsa.sorting;
+
+public class StringCharManipulation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="rAM is a big fan to Wan Where xExX";
+		for(int i=0;i<s.length();i++) {
+			if(String.valueOf(s.charAt(i))!=" ") {			
+			System.out.println(String.valueOf(s.charAt(i)));
+			}
+		}
+	}
+
+}
